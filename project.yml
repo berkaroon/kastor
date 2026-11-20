@@ -1,0 +1,56 @@
+name: Kastor
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  developmentLanguage: en
+  knownRegions: [en, tr, es, fr, de, it, pt, ja, zh, ko, ru, ar]
+packages:
+  KeyboardShortcuts:
+    url: https://github.com/sindresorhus/KeyboardShortcuts.git
+    exactVersion: 2.4.0
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_IDENTITY: "-"
+    CODE_SIGN_STYLE: Manual
+targets:
+  Kastor:
+    type: application
+    platform: macOS
+    sources:
+      - path: Kastor
+        excludes: [Resources/Info.plist, Resources/Kastor.entitlements]
+    dependencies:
+      - package: KeyboardShortcuts
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.kastor.clipboard
+        INFOPLIST_FILE: Kastor/Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Kastor/Resources/Kastor.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        ENABLE_APP_SANDBOX: YES
+        CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO
+        SWIFT_TREAT_WARNINGS_AS_ERRORS: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        MARKETING_VERSION: "1.2.0"
+        CURRENT_PROJECT_VERSION: "4"
+  KastorTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: KastorTests
+      - path: Kastor/Model
+        excludes: [AppModel.swift]
+      - path: Kastor/Localization
+      - path: Kastor/Services/ClipboardFilter.swift
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.kastor.clipboard.tests
+schemes:
+  Kastor:
+    build:
+      targets:
+        Kastor: all
+    test:
+      targets: [KastorTests]

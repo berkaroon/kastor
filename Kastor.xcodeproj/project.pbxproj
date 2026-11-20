@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FB9C46452423EE1ABD6B612 /* EncryptedHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343CA891212967C13BCEED1C /* EncryptedHistoryTests.swift */; };
+		1159598E35B48F42C98B193E /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC251A9F839314C729EC01A /* HistoryStore.swift */; };
+		19C82EE471C76828B6629CE5 /* Hotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA777039D69613759074EE /* Hotkey.swift */; };
+		1B5FFCCFE1BE1E1DA59A4A4D /* KastorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9177199B54E94551147D23FD /* KastorTheme.swift */; };
+		1B84C720C186D0918BF1FDF4 /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1826FB926C53606FECE9465 /* LoginItemService.swift */; };
+		1D2C8CB34E16460A0686508B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76E938CB7EAB5C75534A2B1 /* AppModel.swift */; };
+		32E817F465DECE181E79F181 /* KastorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30A96FB6FE9133DD17F204 /* KastorApp.swift */; };
+		39A813F4E09426789D4AA409 /* KastorPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8E6F5C0A2D18FD236C964 /* KastorPreferences.swift */; };
+		404D8F9214192179A61CFA38 /* Kastor.icns in Resources */ = {isa = PBXBuildFile; fileRef = B613A0663ABCA276E70C307C /* Kastor.icns */; };
+		4B81F006CB4DAE90D34905A3 /* LocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDC979097C0C8EDD6C2D54D /* LocalizationTests.swift */; };
+		55B249C8458E3A2716D2C0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886B0CCABDAE2A24334D1E62 /* AppDelegate.swift */; };
+		5C28F399BFE87CAC5DF7FC57 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC251A9F839314C729EC01A /* HistoryStore.swift */; };
+		75F11ACEE6B94E139E6E6C8E /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679FE54EC35743D47A8E5CBF /* L10n.swift */; };
+		76CBA4F9D4FD141A402782A2 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634F543FB2B4B54605E8654 /* ItemRow.swift */; };
+		78E02B98FA6CB22587D72C80 /* KastorPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8E6F5C0A2D18FD236C964 /* KastorPreferences.swift */; };
+		7A91C7B4CFD6E9034805CF11 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B514BB80F549ED0F1972EE0F /* StatusBarController.swift */; };
+		7D19FF809CA0C3A6DB7CFD03 /* EncryptedHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC9393D0A7C9F5D7A93664 /* EncryptedHistory.swift */; };
+		85F929ECBDA802765679FA8E /* ClipboardFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B49C9EDD9E8409527D1C0 /* ClipboardFilter.swift */; };
+		9BCFD6E93EBB5898942E868E /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871BC625949CCDB15BB6437 /* ClipboardMonitor.swift */; };
+		A8AC6732A2D7730E9DE202D3 /* KeyboardShortcuts-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 696EE2322993EA252A577BA2 /* KeyboardShortcuts-LICENSE.txt */; };
+		AA845D58F15DB36FE310242F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987739A49FDD9F9DCDEF24C /* SettingsView.swift */; };
+		C0A399DCE1E5602E3A94A0C5 /* EncryptedHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDC9393D0A7C9F5D7A93664 /* EncryptedHistory.swift */; };
+		C2DDCD9B040CDD652A4C3000 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = C41F5FCB244530CAA70D3586 /* KeyboardShortcuts */; };
+		D3FBD0B2F8EB45EB3FC8E1D8 /* HistoryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673C78E2366A122509B4112E /* HistoryStoreTests.swift */; };
+		D4879B57F32734368700E5B8 /* ClipboardFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CF5863D3DD99E55486926 /* ClipboardFilterTests.swift */; };
+		DFC06EA74DDF6C76A9CDC9BF /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 48D15665A82951031922BBC3 /* Localizable.xcstrings */; };
+		EB9FC718E9589DF58E4EB5B4 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679FE54EC35743D47A8E5CBF /* L10n.swift */; };
+		F1D4846B6DD03AB86183B7E6 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD0E69378646FC3D1489B44 /* PopoverView.swift */; };
+		F77B7C55E71A857D1F60F217 /* ClipboardFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B49C9EDD9E8409527D1C0 /* ClipboardFilter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11FA777039D69613759074EE /* Hotkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotkey.swift; sourceTree = "<group>"; };
+		1987739A49FDD9F9DCDEF24C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		343CA891212967C13BCEED1C /* EncryptedHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedHistoryTests.swift; sourceTree = "<group>"; };
+		3871BC625949CCDB15BB6437 /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
+		3CD0E69378646FC3D1489B44 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		3DC251A9F839314C729EC01A /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		48D15665A82951031922BBC3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		4C30A96FB6FE9133DD17F204 /* KastorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KastorApp.swift; sourceTree = "<group>"; };
+		5FDC979097C0C8EDD6C2D54D /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		673C78E2366A122509B4112E /* HistoryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreTests.swift; sourceTree = "<group>"; };
+		679FE54EC35743D47A8E5CBF /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		696EE2322993EA252A577BA2 /* KeyboardShortcuts-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "KeyboardShortcuts-LICENSE.txt"; sourceTree = "<group>"; };
+		6EDC9393D0A7C9F5D7A93664 /* EncryptedHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedHistory.swift; sourceTree = "<group>"; };
+		886B0CCABDAE2A24334D1E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9177199B54E94551147D23FD /* KastorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KastorTheme.swift; sourceTree = "<group>"; };
+		A07B49C9EDD9E8409527D1C0 /* ClipboardFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardFilter.swift; sourceTree = "<group>"; };
+		AE3CF5863D3DD99E55486926 /* ClipboardFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardFilterTests.swift; sourceTree = "<group>"; };
+		B07077F98A1B7B01837EB3CB /* Kastor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kastor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B514BB80F549ED0F1972EE0F /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		B613A0663ABCA276E70C307C /* Kastor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Kastor.icns; sourceTree = "<group>"; };
+		CCA8E6F5C0A2D18FD236C964 /* KastorPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KastorPreferences.swift; sourceTree = "<group>"; };
+		D76E938CB7EAB5C75534A2B1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		E634F543FB2B4B54605E8654 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		F0A47D9EAA93316D581B6ADD /* KastorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KastorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1826FB926C53606FECE9465 /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9309634D521B3F3D35975004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DDCD9B040CDD652A4C3000 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291FEADC791A3406F6FBB298 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				679FE54EC35743D47A8E5CBF /* L10n.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		4AF9632DF9FF2879DB531FA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E634F543FB2B4B54605E8654 /* ItemRow.swift */,
+				3CD0E69378646FC3D1489B44 /* PopoverView.swift */,
+				1987739A49FDD9F9DCDEF24C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5440EEC73203830729799768 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				886B0CCABDAE2A24334D1E62 /* AppDelegate.swift */,
+				4C30A96FB6FE9133DD17F204 /* KastorApp.swift */,
+				B514BB80F549ED0F1972EE0F /* StatusBarController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7560592A91622384EEACC5BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B613A0663ABCA276E70C307C /* Kastor.icns */,
+				696EE2322993EA252A577BA2 /* KeyboardShortcuts-LICENSE.txt */,
+				48D15665A82951031922BBC3 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A3AAC1E0CA4BE0CC1528412 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D76E938CB7EAB5C75534A2B1 /* AppModel.swift */,
+				6EDC9393D0A7C9F5D7A93664 /* EncryptedHistory.swift */,
+				3DC251A9F839314C729EC01A /* HistoryStore.swift */,
+				CCA8E6F5C0A2D18FD236C964 /* KastorPreferences.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B29869838584D4CE8A928D1 /* KastorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3CF5863D3DD99E55486926 /* ClipboardFilterTests.swift */,
+				343CA891212967C13BCEED1C /* EncryptedHistoryTests.swift */,
+				673C78E2366A122509B4112E /* HistoryStoreTests.swift */,
+				5FDC979097C0C8EDD6C2D54D /* LocalizationTests.swift */,
+			);
+			path = KastorTests;
+			sourceTree = "<group>";
+		};
+		9EB7982640E2CC9881AC1201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B07077F98A1B7B01837EB3CB /* Kastor.app */,
+				F0A47D9EAA93316D581B6ADD /* KastorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EF21085FEE024A25189CD8 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9177199B54E94551147D23FD /* KastorTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CBEFC73D9FD91145D3403605 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A07B49C9EDD9E8409527D1C0 /* ClipboardFilter.swift */,
+				3871BC625949CCDB15BB6437 /* ClipboardMonitor.swift */,
+				11FA777039D69613759074EE /* Hotkey.swift */,
+				F1826FB926C53606FECE9465 /* LoginItemService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CCB80F85BED2D843F45D066B = {
+			isa = PBXGroup;
+			children = (
+				F0D7FAC02F202A4B36ED4937 /* Kastor */,
+				9B29869838584D4CE8A928D1 /* KastorTests */,
+				9EB7982640E2CC9881AC1201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0D7FAC02F202A4B36ED4937 /* Kastor */ = {
+			isa = PBXGroup;
+			children = (
+				5440EEC73203830729799768 /* App */,
+				291FEADC791A3406F6FBB298 /* Localization */,
+				8A3AAC1E0CA4BE0CC1528412 /* Model */,
+				7560592A91622384EEACC5BD /* Resources */,
+				CBEFC73D9FD91145D3403605 /* Services */,
+				B6EF21085FEE024A25189CD8 /* Theme */,
+				4AF9632DF9FF2879DB531FA1 /* Views */,
+			);
+			path = Kastor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D19F546F80C366D4AF004A /* Kastor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED164A076C25E6CF4ACDD1ED /* Build configuration list for PBXNativeTarget "Kastor" */;
+			buildPhases = (
+				5B33A65CE6595B0A4F990D30 /* Sources */,
+				2627F5ECDD96A3BCBEA6CD34 /* Resources */,
+				9309634D521B3F3D35975004 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kastor;
+			packageProductDependencies = (
+				C41F5FCB244530CAA70D3586 /* KeyboardShortcuts */,
+			);
+			productName = Kastor;
+			productReference = B07077F98A1B7B01837EB3CB /* Kastor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7C71D3B2EB84B180D41B394C /* KastorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC14B133621CD34B382219F /* Build configuration list for PBXNativeTarget "KastorTests" */;
+			buildPhases = (
+				D885A117EF14509A965C9801 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KastorTests;
+			packageProductDependencies = (
+			);
+			productName = KastorTests;
+			productReference = F0A47D9EAA93316D581B6ADD /* KastorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515C596C855D71227899123D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					37D19F546F80C366D4AF004A = {
+						ProvisioningStyle = Manual;
+					};
+					7C71D3B2EB84B180D41B394C = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 453AA81CE4DB3596071CA7CA /* Build configuration list for PBXProject "Kastor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				tr,
+			);
+			mainGroup = CCB80F85BED2D843F45D066B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				76DD7E7666BC701C7CD731F1 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9EB7982640E2CC9881AC1201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D19F546F80C366D4AF004A /* Kastor */,
+				7C71D3B2EB84B180D41B394C /* KastorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2627F5ECDD96A3BCBEA6CD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404D8F9214192179A61CFA38 /* Kastor.icns in Resources */,
+				A8AC6732A2D7730E9DE202D3 /* KeyboardShortcuts-LICENSE.txt in Resources */,
+				DFC06EA74DDF6C76A9CDC9BF /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B33A65CE6595B0A4F990D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B249C8458E3A2716D2C0F9 /* AppDelegate.swift in Sources */,
+				1D2C8CB34E16460A0686508B /* AppModel.swift in Sources */,
+				F77B7C55E71A857D1F60F217 /* ClipboardFilter.swift in Sources */,
+				9BCFD6E93EBB5898942E868E /* ClipboardMonitor.swift in Sources */,
+				C0A399DCE1E5602E3A94A0C5 /* EncryptedHistory.swift in Sources */,
+				1159598E35B48F42C98B193E /* HistoryStore.swift in Sources */,
+				19C82EE471C76828B6629CE5 /* Hotkey.swift in Sources */,
+				76CBA4F9D4FD141A402782A2 /* ItemRow.swift in Sources */,
+				32E817F465DECE181E79F181 /* KastorApp.swift in Sources */,
+				78E02B98FA6CB22587D72C80 /* KastorPreferences.swift in Sources */,
+				1B5FFCCFE1BE1E1DA59A4A4D /* KastorTheme.swift in Sources */,
+				EB9FC718E9589DF58E4EB5B4 /* L10n.swift in Sources */,
+				1B84C720C186D0918BF1FDF4 /* LoginItemService.swift in Sources */,
+				F1D4846B6DD03AB86183B7E6 /* PopoverView.swift in Sources */,
+				AA845D58F15DB36FE310242F /* SettingsView.swift in Sources */,
+				7A91C7B4CFD6E9034805CF11 /* StatusBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D885A117EF14509A965C9801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F929ECBDA802765679FA8E /* ClipboardFilter.swift in Sources */,
+				D4879B57F32734368700E5B8 /* ClipboardFilterTests.swift in Sources */,
+				7D19FF809CA0C3A6DB7CFD03 /* EncryptedHistory.swift in Sources */,
+				0FB9C46452423EE1ABD6B612 /* EncryptedHistoryTests.swift in Sources */,
+				5C28F399BFE87CAC5DF7FC57 /* HistoryStore.swift in Sources */,
+				D3FBD0B2F8EB45EB3FC8E1D8 /* HistoryStoreTests.swift in Sources */,
+				39A813F4E09426789D4AA409 /* KastorPreferences.swift in Sources */,
+				75F11ACEE6B94E139E6E6C8E /* L10n.swift in Sources */,
+				4B81F006CB4DAE90D34905A3 /* LocalizationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10875F9863157CD38562B542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kastor/Resources/Kastor.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Kastor/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastor.clipboard;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+			};
+			name = Debug;
+		};
+		2C7B746D0C889859B75C10F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5AB65BB0B0117E9E4BA0BB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Kastor/Resources/Kastor.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Kastor/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastor.clipboard;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+			};
+			name = Release;
+		};
+		87CC0099004F143DB247421E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastor.clipboard.tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9E78C3177FD82FA2168A46C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4151E0A1474B704A5012139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kastor.clipboard.tests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC14B133621CD34B382219F /* Build configuration list for PBXNativeTarget "KastorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87CC0099004F143DB247421E /* Debug */,
+				D4151E0A1474B704A5012139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		453AA81CE4DB3596071CA7CA /* Build configuration list for PBXProject "Kastor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E78C3177FD82FA2168A46C1 /* Debug */,
+				2C7B746D0C889859B75C10F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED164A076C25E6CF4ACDD1ED /* Build configuration list for PBXNativeTarget "Kastor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10875F9863157CD38562B542 /* Debug */,
+				5AB65BB0B0117E9E4BA0BB59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76DD7E7666BC701C7CD731F1 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C41F5FCB244530CAA70D3586 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76DD7E7666BC701C7CD731F1 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 515C596C855D71227899123D /* Project object */;
+}
